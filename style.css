@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 475px;
+    background-color: #303030 ;
+    color: #FFFFFF;
+}
+header h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+}
+header h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+#headertext{
+    margin-left: 62px;
+    display: grid;
+    gap: 20px;
+}
+
+
+
+#upermid{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#infocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.info h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.info span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+#mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#midinfo h1{
+font-weight: 500;
+font-size: 40px;
+line-height: 20px;
+margin-bottom: 60px;
+}
+#midinfo p{
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+}
+#mid img{
+    padding: 85px 0 85px 90px;
+    transition: 1s;
+}
+img:hover{
+transform: scale(1.02);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 638px;
+    background-color: #303030;
+}
+footer h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+footer input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 30%);
+    padding-left: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+button{
+    width: 286px;
+    height: 74px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: .2s;
+}
+button:hover{
+    border: 2px solid #C07212;
+    background-color: transparent;
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 30%) 0 5px 10px;
+}
+
+
+
+.js{
+    transition: all .3s;
+    transform: translateX(-100%);
+}
+.show{    
+    transition: all .3s;
+    transform: translateX(0%);
+}
