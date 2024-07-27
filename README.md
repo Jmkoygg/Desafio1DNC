@@ -10,4 +10,5 @@ O arquivo JAVASCRIPT é muito pequeno mas também está organizado nas 3 sessõe
 Segue a baixo o link da planinha sheet monkey e hospedagem
 
 Planilha:https://docs.google.com/spreadsheets/d/1nAVKNl0hfs6XKGkxH6-y-AGal0iySfYJlc_AM7FjOv8/edit?usp=sharing
+
 Hospedagem netlify:https://66a4f11ab95c2e178ac985da--desafiobasednc1.netlify.app/
