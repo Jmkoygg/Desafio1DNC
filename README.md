@@ -1,13 +1,30 @@
-# Desafio1DNC
-Desafio do Modulo base do curso de Engenharia de Software da Escola DNC
+# Site para Construtora 🏗️✨
 
-O arquivo HTML está oraganizado em 4 sessões um header(Começo da pagina) 2 sections( Upermid e mid) E footer(O fim da pagina), as separações estão bem claras pelas linhas.
+Este repositório contém o código-fonte de um site desenvolvido para uma construtora. O objetivo é apresentar os serviços, projetos e diferenciais da empresa de forma moderna, responsiva e eficiente.
 
-O arquivo CSS está organizado em 6 sessões a primeira pra importação de fontes, um css reset e padroniazação da pagina, as 4 seguintes são as mesmas do HTML e por fim classes para o JAVASCRITP.
+## 🌟 Funcionalidades
 
-O arquivo JAVASCRIPT é muito pequeno mas também está organizado nas 3 sessões necessárias para funcionar perfeitamente.
+- **Design Responsivo**: Otimizado para dispositivos móveis, tablets e desktops.
+- **Seções do Site**:
+  - Apresentação da empresa.
+  - Galeria de projetos.
+  - Contato direto.
+  - Serviços oferecidos.
+- **Foco na Experiência do Usuário**.
 
-Segue a baixo o link da planinha sheet monkey e hospedagem
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+## 📂 Estrutura do Projeto
+
+- **`index.html`**: Página principal do site.
+- **`css/`**: Arquivos de estilo.
+- **`js/`**: Scripts para funcionalidades do site.
+- **`assets/`**: Imagens e outros recursos visuais.
+
 
 Planilha:https://docs.google.com/spreadsheets/d/1nAVKNl0hfs6XKGkxH6-y-AGal0iySfYJlc_AM7FjOv8/edit?usp=sharing
 
