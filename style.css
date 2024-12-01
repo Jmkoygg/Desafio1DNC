@@ -12,11 +12,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-#mid,
-#upermid,
-footer {
-  overflow: hidden;
-}
 
 header {
   display: flex;
@@ -165,56 +160,90 @@ button:hover {
   transition: all 0.3s;
   transform: translateX();
 }
-@media (max-width: 1150px) {
-  #infocontainer {
-    background-color: #f9f9f9;
-    margin: 1rem;
-    gap: 1rem;
-    flex-direction: column;
-  }
-  #upermid {
-    height: 30vh;
-  }
-}
-@media (max-width: 1350px) {
-  #mid {
-    margin-top: 60px;
-    flex-direction: column;
-  }
-}
-@media (max-width: 1350px) {
-  #mid {
-    margin-top: 60px;
-    flex-direction: column;
-  }
 @media (max-width: 768px) {
-    footer {
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  footer h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  form {
+    width: 100%;
+    gap: 20px;
+  }
+
+  footer input {
+    width: 90%;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 80%;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  header {
+      height: auto; 
+      padding: 20px; 
       flex-direction: column;
+      text-align: center;
+  }
+
+  header h1 {
+      font-size: 2.5rem;
+      line-height: 3rem;
+  }
+
+  header h3 {
+      font-size: 1rem;
+      line-height: 1.5rem; 
+  }
+
+  #headertext {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #upermid {
       height: auto;
       padding: 20px;
-    }
+  }
 
-    footer h1 {
-      font-size: 1.5rem;
+  #infocontainer {
+      flex-direction: column;
+      gap: 10px;
+      margin: 0;
+  }
+
+  .info {
       text-align: center;
-      padding-bottom: 20px;
-    }
+  }
 
-    form {
-      width: 100%;
-      gap: 20px;
-    }
+  .info h1 {
+      font-size: 2rem;
+  }
 
-    footer input {
-      width: 90%;
-      height: 50px;
+  .info span {
       font-size: 1rem;
-    }
-
-    button {
-      width: 80%;
-      height: 50px;
-      font-size: 1.2rem;
-    }
+  }
+}
+@media (max-width: 768px) {
+  #mid {
+      flex-direction: column;
+      text-align: center;
+  }
+  #mid img {
+      max-width: 90%;
+      padding: 10px;
   }
 }
