@@ -165,8 +165,14 @@ button:hover {
 }
 
 .js {
-  transition: all 0.3s;
-  transform: translateX();
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.js.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 @media (max-width: 768px) {
   footer {
