@@ -7,6 +7,10 @@
   margin: 0;
   text-decoration: none;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
 }
 img {
   max-width: 100%;
@@ -107,6 +111,8 @@ footer {
   width: 100%;
   height: 638px;
   background-color: #303030;
+  padding: 20px;
+  flex-direction: column;
 }
 
 footer h1 {
@@ -115,16 +121,17 @@ footer h1 {
   line-height: 3rem;
   text-align: center;
   color: #ffffff;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 footer input {
-  width: 508px;
-  height: 72px;
+  width: 90%;
+  max-width: 500px;
+  height: 50px;
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: rgba(0, 0, 0, 30%);
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 form {
@@ -139,11 +146,12 @@ form {
 }
 
 button {
-  width: 286px;
-  height: 74px;
+  width: 90%;
+  max-width: 286px;
+  height: 50px;
   background-color: #c07212;
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 1.2rem;
   border-radius: 10px;
   margin-top: 20px;
   transition: 0.2s;
@@ -169,7 +177,6 @@ button:hover {
 
   footer h1 {
     font-size: 1.5rem;
-    text-align: center;
     padding-bottom: 20px;
   }
 
